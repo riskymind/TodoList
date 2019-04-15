@@ -52,3 +52,36 @@
 	border: none;
 	font-size: 16px;
 }
+
+.done {
+	background-color: #51df70;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
+
+ul {
+	text-align: left;
+	list-style: none;
+	text-transform: capitalize;
+}
+
+li {
+	border: 2px solid #025f70;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: #4eb9cd;
+	padding: 10px 20px;
+}
+
+li button {
+	float: right;
+	background: none;
+	cursor: pointer;
+	font-weight: bold;
+	color: red;
+
+}

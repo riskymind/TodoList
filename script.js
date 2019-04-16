@@ -28,10 +28,13 @@ const createListElement = ()=> {
 
 	//event listener for list being done
 	li.addEventListener('click', crossOut);
+	
+
+	
+
 
 	const deleteBtn = document.createElement('button');
 	const cancel = document.createTextNode('X');
-
 	deleteBtn.appendChild(cancel);
 	li.appendChild(deleteBtn);
 
@@ -51,14 +54,6 @@ const addTodoList = ()=> {
 	}
 }
 
-/*
-const addTodoViaKeypress = ()=> {
-	if(inputLength() > 0 && event.which === 13) {
-		createListElement();
-	}
-}
-
-*/
 
 
 addTodo.addEventListener('click', addTodoList);
